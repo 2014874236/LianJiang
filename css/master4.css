@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+#nav{
+	width:100%;
+	}
+.fill{
+	width:100%;
+	height:20px;
+	background-color:#BCDC5C;
+	}
+.text{
+	width:40%;
+	font-style:italic;
+	float:left;
+	padding-top:2%;
+	}
+span.main {
+	display: block;
+	font-size:45px;
+	font-family:"华文行楷";
+	padding-left:10%;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	color:#FFBA19;
+	filter:glow(color=#BCDC5C,strength=5);
+	text-shadow:3px 3px 3px #BCDC5C;
+	}
+
+.nav_1{
+	width:56.5%;
+	float:left;
+	padding-top:2.5%;
+	padding-left:3.5%;
+	padding-bottom:0.5%;
+	}
+ul li{
+	list-style:none;
+	text-decoration:none;
+	display:block;
+	float:left;
+	}
+ul li a{
+	text-decoration:none;
+	font-size:25px;
+	font-family:"华文楷体";
+	padding:23px 23px;
+	transition: all 0.6s;
+	}
+.nav_1 ul li a:link,.nav_1 ul li a:visited{
+	color:#33B300;
+	}
+.nav_1 ul li a:hover,.nav_1 ul li a:active{
+	transform: scale(1.2);
+	text-decoration:none;
+	border-radius:10%;
+	}
+/*导航颜色*/
+.nav_1 ul li  a:hover{
+	color:#fff;
+}
+.nav_1 ul li a.color1:hover{
+	background:#d52685;
+}
+.nav_1 ul li a.color2:hover{
+	background:#fd9f3e;
+}
+.nav_1 ul li a.color3:hover{
+	background:#553a99;
+}
+.nav_1 ul li a.color4:hover{
+	background:#6cbc35;
+}
+.nav_1 ul li a.color5:hover{
+	background:#08538c;
+}
+.nav_1 ul li a.color6:hover{
+	background:#FFE500;
+}
+/*导航颜色*/
+#header{
+	clear:both;
+	width:80%;
+	height:608px;
+	background:#eee;
+	margin-top:9%;
+	margin-left:10%;
+	}
+.header-image{
+	width:100%;
+	margin-left:1.2%;
+	}
+.image1,.image2{
+	margin-top:1.5%;
+	}
+.image1,.image2,.image3{
+	float:left;
+	}
+.image1,.image2,.image3 {
+	border:7px solid #fff;
+	}
+#section{
+	width:100%;
+	margin-top:5%;
+	}
+#section h3{
+	font-size:40px;
+	font-family:"华文行楷";
+	text-align:center;
+	color:#33B300;
+	}
+#section p{
+	line-height:30px;
+	}
+.p-text{
+	margin-top:2%;
+	margin-left:5%;
+	margin-right:5%;
+	}
+#section q{
+	color:#33B300;
+	}
+/*图片特效*/
+#dcon {
+    width: 85%;
+	margin-left:10%;
+	margin-top:2%;
+}
+.pic {
+	float: left;
+}
+.pic1 {
+    background-image: url("../img/白鸽粥.png");
+}
+.pic2 {
+    background-image: url("../img/良垌广海鸡.png");
+}
+.pic3 {
+    background-image: url("../img/生炆猪肉.jpg");
+}
+.pic4 {
+    background-image: url("../img/石岭古粽籺.jpg");
+    width: 70%;
+}
+.txt {
+    width: 100px;
+    height: 429px;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.txt p {
+        color: #fff;
+        float: left;
+    }
+.p1 {
+    font-size: 12px;
+    width: 12px;
+    margin: 20px;
+}
+.p2 {
+    font-size: 14px;
+    width: 14px;
+    margin-top: 20px;
+}
+#article{
+	margin-top:35%;
+	}
+.content1,.content2,.content3,.content4,.content5,.content6{
+	width:40%;
+	margin-left:7%;
+	margin-top:5%;
+	float:left;
+	}
+.content5{
+	clear:left;
+	}
+.content1 img,.content2 img,.content3 img,.content4 img,.content5 img,.content6 img{
+	float:left;
+	width:30%;
+	border-radius:50%;
+	opacity:1;
+	}
+.content1 p,.content2 p,.content3 p,.content4 p,.content5 p,.content6 p{
+	float:left;
+	width:60%;
+	padding-left:5%;
+	padding-top:2%;
+	line-height:30px;
+	}
+
+.imge:hover{
+	opacity:0.7;
+    transition:ease-out  0.2s;
+    -moz-transition:ease-out 0.2s;       /* Firefox */
+    -o-transition:ease-out 0.2s;         /* Opera */
+    -webkit-transition:ease-out 0.2s;    /* Safari 和 Chrome */
+         
+    transform:rotate(180deg) scale(0.6);
+    -moz-transform:rotate(180deg) scale(0.6);    /* Firefox */
+    -o-transform:rotate(180deg) scale(0.6);      /* Opera */
+    -webkit-transform:rotate(180deg) scale(0.6); /* Safari 和 Chrome */
+    }
+/*图片特效*/
+@media screen and (min-width:421px) and (max-width:899px){
+.text{
+	width:40%;
+	margin-top:3%;
+	}
+span.main {
+	font-size:42px;
+	letter-spacing: 0.3em;
+	}
+.nav_1{
+	width:59%;
+	margin-left:1%;
+	}
+ul li{
+	margin-top:3%;
+	}
+ul li a{
+	font-size:23px;
+	padding:12px 12px;
+	}
+
+}
+@media screen and (max-width:420px){
+.text{
+	width:100%;
+	clear:left;
+	}
+span.main {
+	font-size:40px;
+	text-align:center;
+	}
+#nav{
+	width:100%;
+	}
+.nav_1{
+	width:100%;
+	clear:both;
+	margin:0;
+	margin-bottom:1.5%;
+	}
+
+.nav_1 ul li{
+	width:100%;
+	margin-top:1%;
+	}
+.nav_1 ul li a{
+	display:block;
+	font-size:20px;
+	text-align:center;
+	padding:2%;
+	}
+.nav_1 ul li a:hover{
+	width:100%;
+	border-radius:0;
+}
+
+}

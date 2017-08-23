@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>廉江</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/master.css"  />
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript" data-library="jquery" data-version="1.11.3"></script>
+    <script src="js/jssor.slider-22.0.7.mini.js" type="text/javascript" data-library="jssor.slider.mini" data-version="22.0.7"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/share.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <style>
+	    .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+    </style>
+</head>
+<body onload="login1()"> 
+<div id="nav">
+	<div class="fill"></div>
+	<div class="text">
+	    <span class="main">廉江欢迎您</span>
+	</div>
+    <div class="nav_1">
+    	<ul>
+        	<li><a class="color1" href="#">首页</a></li>
+            <li><a class="color2" href="美食.html">美食</a></li>
+            <li><a class="color3" href="特产.html">特产</a></li>
+            <li><a class="color4" href="旅游.html">旅游</a></li>
+            <li><a class="color5" href="习俗.html">习俗</a></li>
+            <li><a class="color6" href="留言板.html">留言板</a></li>
+        </ul>
+    </div>
+</div>
+<!--图片轮播-->
+<div id="header">
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">       
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+            <div data-p="225.00">
+                <img data-u="image" src="img/1.jpg" />
+                <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;line-height:60px;"></div>
+                <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;line-height:38px;"></div>
+                <div data-u="caption" data-t="0" style="position:absolute;top:120px;left:650px;width:470px;height:220px;z-index:0;">           
+                </div>
+            </div>
+            <div data-p="225.00" style="display:none;">
+                <img data-u="image" src="img/6.jpg" />
+            </div>
+            <div data-p="225.00" data-po="80% 55%" style="display:none;">
+                <img data-u="image" src="img/2.jpg" />
+            </div>
+        </div>
+         <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>      
+    </div>
+</div> 
+<!--图片轮播-->
+<!--中间内容-->
+<div id="section">
+    <div class="part1">
+	<div class="screen-title">
+    	<h2>廉江</h2>
+        <div class="title-content1">
+        	<i class="mark-left"></i>
+            <h3>ABOUT LIANJIANG</h3> 
+            <i class="mark-right"></i>
+        </div>
+    </div> <!--end of screen-title-->
+    <div class="content">
+    	<p><q class="special">廉江市</q>，地处粤、桂两省区交汇处，北靠大西南，面向东南亚，是沟通大西南和东南亚的门户。属于湛江市代管县级市，是传统农业大县和工业强县，盛产水果，如红橙、香蕉、龙眼、荔枝、红杨桃、黄皮果、火龙果等，号称<q class="special">百果之乡</q>，也称为<q class="special">中国红橙之乡</q>；广东40个产粮大县中表现突出的县级市；粤西唯一全国生猪调出大县；工业类别齐全，电饭煲产量占全国3成以上，是<q class="special">中国电饭煲之乡</q>。</p>
+    </div>
+    <div class="aside_1">
+		<div class="grid-in">
+			<div class="col-md-3 grid-top simpleCart_shelfItem1">
+				<a href="旅游.html" class="b-link-stripe b-animate-go  thickbox">
+                	<img class="img-responsive" src="img/鹤地水库.jpg" alt="">
+					<div class="b-wrapper">
+						<h3 class="b-animate b-from-left    b-delay03 ">
+							<span>鹤地水库</span>	
+						</h3>
+					</div>
+				</a>
+				<p><a href="旅游.html">鹤地水库</a></p>
+			</div>
+			<div class="col-md-3 grid-top simpleCart_shelfItem2">
+				<a href="旅游.html" class="b-link-stripe b-animate-go  thickbox">
+                	<img class="img-responsive" src="img/九洲江.jpg" alt="">
+					<div class="b-wrapper">
+						<h3 class="b-animate b-from-left    b-delay03 ">
+							<span>九洲江</span>	
+						</h3>
+					</div>
+				</a>
+				<p><a href="旅游.html">九洲江</a></p>
+			</div>   
+			<div class="col-md-3 grid-top simpleCart_shelfItem3">
+				<a href="特产.html" class="b-link-stripe b-animate-go  thickbox">
+                	<img class="img-responsive" src="img/廉江红橙.png" alt="">
+					<div class="b-wrapper">
+						<h3 class="b-animate b-from-left    b-delay03 ">
+							<span>廉江红橙</span>	
+						</h3>
+					</div>
+				</a>
+				<p><a href="特产.html">廉江红橙</a></p>
+			</div>
+            <div class="col-md-3 grid-top simpleCart_shelfItem4">
+				<a href="美食.html" class="b-link-stripe b-animate-go  thickbox">
+                	<img class="img-responsive" src="img/安铺鸡饭.png" alt="">
+					<div class="b-wrapper">
+						<h3 class="b-animate b-from-left    b-delay03 ">
+							<span>安铺鸡饭</span>	
+						</h3>
+					</div>
+				</a>
+				<p><a href="美食.html">安铺鸡饭</a></p>
+			</div>
+			<div class="col-md-3 grid-top simpleCart_shelfItem5">
+				<a href="美食.html" class="b-link-stripe b-animate-go  thickbox">
+                	<img class="img-responsive" src="img/河唇黄竹山山姜头鸡汤.jpg" alt="">
+					<div class="b-wrapper">
+						<h3 class="b-animate b-from-left    b-delay03 ">
+							<span>河唇黄竹山山姜头鸡汤</span>	
+						</h3>
+					</div>
+				</a>
+				<p><a href="美食.html">河唇黄竹山山姜头鸡汤</a></p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>  <!--end of grid-in-->
+    </div>  <!--end of content-->
+    </div>   <!--end of part1-->
+    <div class="part2">
+    	<div class="screen-title2">
+    		<h2>热门推荐</h2>
+       		<div class="title-content2">
+        		<i class="mark-left"></i>
+           		<h3>POPULAR RECOMMENDED</h3> 
+            	<i class="mark-right"></i>
+        	</div>
+    	</div> <!--end of screen-title2-->
+       <!-- Bookstrap图片特效-->
+       <div class="team-mem" id="team">
+			<div class="container">
+				<div class="team-main">
+					<ul class="ch-grid">
+						<li> 
+							<a href="特产.html">
+                            	<div class="ch-item ch-img-1">
+									<div class="ch-info">
+										<h3>廉江红橙</h3>
+										<p>by Lian Jiang</p>
+									</div>
+								</div>       
+                             </a>
+						</li>
+						<li>
+							<a href="旅游.html">
+                            	<div class="ch-item ch-img-2">
+									<div class="ch-info">
+										<h3>高桥红树林</h3>
+										<p>by Lian Jiang</p>
+									</div>
+								</div>
+                            </a>
+						</li>
+						<li>
+							<a href="美食.html">
+                            	<div class="ch-item ch-img-3">
+									<div class="ch-info">
+										<h3>河唇鱼头汤</h3>
+										<p>by Lian Jiang</p>
+									</div>
+								</div>
+                            </a>
+						</li>
+						<li>
+							<a href="特产.html">
+                            	<div class="ch-item ch-img-4">
+									<div class="ch-info">
+										<h3>红杨桃</h3>
+										<p>by Lian Jiang</p>
+									</div>
+								</div>
+                            </a>
+						</li>
+					</ul>
+			 	</div>  <!--end of team-main-->
+	   		</div>   <!--end of container-->
+		</div>     <!--end of team-mem-->
+   	</div>   <!--end of part2-->
+</div>   <!--end of section-->
+<div id="footer">
+	<div class="about">
+    	<h2>关于我们</h2>
+        <p>这是一个关于廉江的网站，供大家欣赏。</p>
+    </div>
+    <div class="contact">
+    	<h2>联系</h2>
+        <p>免费服务热线：<br>0759-6696699</p>
+        <p>电子邮箱：2066895777@qq.com</p>
+    </div>
+</div>
+</body>
+</html>

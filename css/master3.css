@@ -1,0 +1,483 @@
+@charset "utf-8";
+/* CSS Document */
+#header{
+	width:63%;
+	margin:0 auto;
+	}
+#header img{
+	width:100%;
+	}
+ul{
+	margin-top:10%;
+	}
+ul li{
+	list-style:none;
+	text-decoration:none;
+	display:block;
+	float:left;
+	margin-top:30%;
+	}
+ul li a{
+	text-decoration:none;
+	font-size:23px;
+	font-family:"华文楷体";
+	padding:23px 23px;
+	transition: all 0.6s;
+	}
+ul li a:link,ul li a:visited{
+	color:#fff;
+	}
+ul li a:hover,ul li a:active{
+	transform: scale(1.2);
+	text-decoration:none;
+	}
+/*导航颜色*/
+ul li  a:hover{
+	color:#fff;
+}
+ul li a.color1:hover{
+	background:#d52685;
+}
+ul li a.color2:hover{
+	background:#fd9f3e;
+}
+ul li a.color3:hover{
+	background:#553a99;
+}
+ul li a.color4:hover{
+	background:#6cbc35;
+}
+ul li a.color5:hover{
+	background:#08538c;
+}
+ul li a.color6:hover{
+	background:#FFE500;
+}
+/*导航颜色*/
+/*旋转*/
+/*ul li{
+	transform-style: preserve-3d; 
+	transition: 1s transform; }
+ul li:hover{
+	transform: rotateY(1turn);
+	}*/
+/*旋转*/
+
+#sideToggle{ display:none;}
+#sideToggle:checked + #aside{ left:0; }
+#sideToggle:checked ~ #wrap{ padding-left:220px; }
+body > #aside{ position:absolute; top:12%; bottom:0; left:-180px; width:180px; background:#FFC456; transition:0.2s ease-out; -webkit-transition:0.2s ease-out; }
+#wrap{float:left;margin:0 -30%;padding:10px; transition:0.25s ease-out; -webkit-transition:0.25s ease-out; text-align:center;}
+#wrap > label{ display:inline-block; }
+#wrap > label{ 
+  background:#FFC456;
+  border-radius:100%;
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  font-family: Courier New;
+  font-size: 25px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top:35%;
+  text-shadow: 0 -4px;
+}
+#wrap > label:hover{ background:#BCDC5C; }
+
+
+
+
+	
+#content{
+	width:63%;
+	margin:0 auto;
+	}
+.part-1{
+	margin-top:3%;
+	}
+.main-1{
+	height: 55px;
+	background-color:#eee;
+	}
+.main-1 h3{
+	font-size:35px;
+	color:#fff;
+	width:20%;
+	margin-top:0.8%;
+	margin-left:7%;
+	text-align:center;
+	background-color:#BCDC5C;
+	float:left;
+	}
+.rub{
+	float:right;
+	margin-right:7%;
+	font-size:40px;
+	font-family:"华文行楷";
+    }
+ruby{
+	padding-bottom:0px;
+	}
+.main-1-content{
+	clear:both;
+	}
+.hongcheng{
+	float:left;
+	width:50%;
+	}
+pre{
+	font-size:20px;
+	}
+/*图片特效*/
+.imge{
+	float:left;
+	width:50%;
+	}
+.imge img{
+	opacity:0.7;
+    border-radius:50%;
+    }
+
+.imge img:hover,.imge5 img:hover{
+	opacity:1;
+    transition:ease-out  0.2s;
+    -moz-transition:ease-out 0.2s;       /* Firefox */
+    -o-transition:ease-out 0.2s;         /* Opera */
+    -webkit-transition:ease-out 0.2s;    /* Safari 和 Chrome */
+         
+    transform:rotate(180deg) scale(0.6);
+    -moz-transform:rotate(180deg) scale(0.6);    /* Firefox */
+    -o-transform:rotate(180deg) scale(0.6);      /* Opera */
+    -webkit-transform:rotate(180deg) scale(0.6); /* Safari 和 Chrome */
+    }
+.imge img{
+	width: 75%;
+	height: auto;
+	float:left;
+    }
+/*图片特效*/
+.part-2{
+	margin-top:40%;
+	}
+.text{
+	text-indent:35px; /*首行缩进*/
+	line-height:20px;
+	font-size:20px;
+	}
+.imge2{
+	width:100%;
+	}
+.imge2 img{
+	width:100%;
+	height:auto;
+	}
+.part-3{
+	margin-top:8%;
+	}
+.main-1-content-imge{
+	margin-top:7%;
+	}
+.imge3,.imge4{
+	float:left;
+	width:30%;
+	}
+.imge3{
+	margin-left:9%;
+	}
+.imge3 img,.imge4 img{
+	width: 100%;
+	height:250px;
+	border-radius:50%;
+    }
+.imge3 img:hover,.imge4 img:hover{
+	opacity:0.5;
+    transition:ease-out  0.2s;
+    -moz-transition:ease-out 0.2s;       /* Firefox */
+    -o-transition:ease-out 0.2s;         /* Opera */
+    -webkit-transition:ease-out 0.2s;    /* Safari 和 Chrome */
+         
+    transform:rotate(180deg) scale(0.6);
+    -moz-transform:rotate(180deg) scale(0.6);    /* Firefox */
+    -o-transform:rotate(180deg) scale(0.6);      /* Opera */
+    -webkit-transform:rotate(180deg) scale(0.6); /* Safari 和 Chrome */
+    }
+.text2{
+	width:10%;
+	float:left;
+	font-size:30px;
+	color:#33B300;
+	font-weight:1000;
+	margin-top:10%;
+	margin-left:5%;
+	}
+.text3{
+	clear:left;
+	color:#33B300;
+	}
+.p1{
+	float:left;
+	margin-left:20%;
+	}
+.p2{
+	float:left;
+	margin-left:36%;
+	}
+.compare-text{
+	margin-top:7%;
+	background-color:#BCDC5C;
+	}
+.compare-text h3{
+	color:#33B300;
+	font-size:30px;
+	width:15%;
+	text-align:center;
+	/*line-height:25px;*/
+	}
+.compare-text p{
+	font-size:25px;
+	width:100%;
+	text-indent:35px; /*首行缩进*/
+	color:#fff;
+	line-height:5px;
+	}
+.p3{
+	padding-bottom:2%;}
+.part-4{
+	margin-top:8%;
+	}
+.Nutritional-value{
+	float:left;
+	margin-top:2%;
+	width:50%;
+	}
+.Nutritional-value h3{
+	color:#33B300;
+	font-size:25px;
+	}
+.Nutritional-value p{
+	text-indent:35px; /*首行缩进*/
+	line-height:22px;
+	}
+.imge5{
+	width:40%;
+	float:left;
+	margin-left:7%;
+	margin-top:15%;
+	}
+.imge5 img{
+	width: 100%;
+	height:auto;
+	opacity:0.7;
+	border-radius:50%;
+    }
+.p4{
+	text-indent:35px; /*首行缩进*/
+	clear:left;
+	width:100%;
+	}
+
+
+@media screen and (min-width:421px) and (max-width:899px){
+.h h3{
+	font-size:25px;
+	}
+.rub{
+	margin-top:1%;
+	}
+ruby{
+	font-size:24px;
+	}
+.main-1{
+	height: 47px;
+	}
+.main-1 h3{
+	font-size:22px;
+	color:#fff;
+	width:35%;
+	margin-top:1%;
+	line-height:35px;
+	}
+.rub{
+	font-size:30px;
+    }
+pre{
+	font-size:15px;
+	}
+.hongcheng{
+	width:40%;
+	margin-left:10%;
+	}
+/*图片特效*/
+.imge{
+	width:40%;
+	margin-left:7%;
+	}
+.imge img{
+	width: 80%;
+    }
+.part-2{
+	clear:both;
+	margin-top:45%;
+	}
+.text{
+	line-height:21px;
+	font-size:15px;
+	}
+.main-1-content-imge{
+	margin-top:7%;
+	}
+.imge3 img,.imge4 img{
+	height:150px;
+    }
+.text2{
+	width:10%;
+	font-size:28px;
+	font-weight:900;
+	margin-top:1.5%;
+	}
+.compare-text{
+	margin-top:15%;
+	}
+.compare-text h3{
+	font-size:22px;
+	text-align:left;
+	width:100%;
+	}
+.compare-text p{
+	font-size:16px;
+	line-height:5px;
+	}
+.p2{
+	margin-left:30%;
+	}
+.imge5{
+	margin-top:50%;
+	}
+#wrap > label{ 
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+}
+body > #aside{ 
+	left:-120px;
+	 width:120px;
+}
+ul li a{
+	font-size:20px;
+	margin-left:-40%;
+	padding:15px 15px;
+	}
+}
+@media screen and (max-width:420px){
+body > #aside{
+	top:12%;
+	height:300px;
+	bottom:0; 
+	left:-100px;
+	width:100px;
+	}
+#wrap > label{ 
+  border-radius:0;
+  width: 100%;
+  height: 20px;
+  padding-top:0;
+}
+#header{
+	margin:0 auto;
+	width:100%;
+	}
+#wrap{
+	width:100%;
+	margin-left:-3%;
+	}
+#aside ul li a{
+	font-size:18px;
+	margin-left:-40%;
+	padding:12px 12px;
+	}
+#content{
+	width:100%;
+	}
+.main-1{
+	height: 37px;
+	}
+.main-1 h3{
+	font-size:17px;
+	color:#fff;
+	width:35%;
+	margin-top:2%;
+	margin-left:2%;
+	line-height:25px;
+	}
+.rub{
+	font-size:22px;
+    }
+pre{
+	font-size:10px;
+	}
+.hongcheng{
+	width:40%;
+	margin-left:10%;
+	margin-top:-1%;
+	}
+.imge{
+	width:40%;
+	margin-left:7%;
+	}
+.imge img{
+	width: 80%;
+    }
+.part-2{
+	clear:both;
+	margin-top:65%;
+	}
+.text{
+	line-height:18px;
+	font-size:10px;
+	}
+.main-1-content-imge{
+	margin-top:12%;
+	}
+.imge3 img,.imge4 img{
+	height:100px;
+    }
+.text2{
+	width:10%;
+	font-size:28px;
+	font-weight:900;
+	margin-top:1.5%;
+	}
+.compare-text{
+	margin-top:15%;
+	}
+.compare-text h3{
+	font-size:20px;
+	text-align:left;
+	width:100%;
+	}
+.compare-text p{
+	font-size:14px;
+	line-height:14px;
+	}
+.p1{
+	font-size:10px;
+	margin-left:10%;
+	}
+.p2{
+	font-size:10px;
+	margin-left:33%;
+	}
+.Nutritional-value{
+	clear:left;
+	width:100%;
+	}
+.Nutritional-value h3{
+	font-size:20px;
+	}
+.Nutritional-value p{
+	line-height:22px;
+	font-size:14px;
+	}
+}
